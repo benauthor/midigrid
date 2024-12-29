@@ -15,14 +15,16 @@ launchpad.grid_notes= {
 --launchpad.width = 9
 
 --[[ Valid Launchpad colours based on bits 0..1 Red, 4..5 Green
-id  color 
+id  color
 0, 16, 32, 48 - Full Green
-1, 17, 33, 49 
+1, 17, 33, 49
 2, 18, 34, 50
 3, 19, 35, 51 - Full Orange
 ]]--
 -- Tropical
-launchpad.brightness_map = {0,16,16,32,32,48,48,49,49,33,33,50,50,34,51,51}
+-- launchpad.brightness_map = {0,16,16,32,32,48,48,49,49,33,33,50,50,34,51,51}
+-- Colorblind (maximum value contrast)
+launchpad.brightness_map = {0,1,1,1,1,2,2,3,3,3,3,19,19,19,19,51}
 -- Sunrise
 --launchpad.brightness_map = {0,16,16,32,32,48,48,49,49,50,50,33,33,51,2,3}
 -- Rainbow
